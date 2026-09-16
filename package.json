@@ -1,0 +1,17 @@
+{
+  "name": "dips-portal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup-db": "node scripts/setup-db.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.27.0",
+    "@vercel/postgres": "^0.10.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
